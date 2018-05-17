@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>Atividade PPT</title>
+	<script src="PPT_code.js">
+	</script>
+	<style type="text/css">
+		body{
+			margin: 150px;
+			margin-top: 50px;
+		}
+		.menu{
+			padding: 30px;
+			text-align: center;
+			border-left: 3px solid black;
+			border-bottom:  3px solid black;
+			border-top:  3px solid black;
+			border-right: 3px solid black;
+			border-radius: 15px;
+		}
+		#Vitoria{
+			width: 15px;
+		}
+		#Empate{
+			width: 15px;
+		}
+		#Derrota{
+			width: 15px;
+		}
+
+	</style>
+</head>
+<body>	
+	<div class="menu">
+		<center>Pedra, Papel Tesoura</center><br>
+		Vitoria <input type="text" value = "0" id="Vitoria" readonly>      Empate <input type="text" id="Empate" value= "0" readonly>		Derrota <input type="text" id="Derrota" value = "0" readonly><br><br>
+			<input type="button" value="Pedra" onclick = "pedra()">
+			<input type="button" value="Papel" onclick = "papel()">
+			<input type="button" value="Tesoura" onclick = "tesoura()">
+	</div>
+</body>
